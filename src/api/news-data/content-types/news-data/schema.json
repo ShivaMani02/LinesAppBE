@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_datas",
+  "info": {
+    "singularName": "news-data",
+    "pluralName": "news-datas",
+    "displayName": "NewsData"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "hashtags": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "sports",
+        "entertainment",
+        "technology",
+        "global"
+      ]
+    }
+  }
+}
